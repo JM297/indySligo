@@ -1,0 +1,66 @@
+html,
+body {
+  height: 100%;
+  background-color: #83bfe2;
+  margin: 0;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+}
+@media screen and (max-width: 600px) {
+  footer {
+    position: relative;
+  }
+}
+footer #copyright p {
+  margin-top: 15px;
+}
+footer .footerLinks {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+footer .footerLinks a {
+  color: #fff;
+}
+footer .footerLinks .nav-link:hover {
+  color: rgba(0,0,0,0.7);
+}
+.jumbotron {
+  margin-bottom: 0;
+  background-color: #95d6f9;
+}
+.jumbotron a {
+  color: #000;
+  text-decoration: none;
+}
+.col-lg-12 {
+  background-color: #006cb7;
+}
+.navbar {
+  background-color: #006cb7;
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-brand {
+  color: #fff !important;
+  font-family: "Trebuchet MS", Verdana, Arial;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #333;
+}
+@media screen and (max-width: 350px) {
+  .navbar-brand {
+    font-size: 18px;
+  }
+}
+div.row {
+  margin-left: 0;
+  margin-right: 0;
+}
